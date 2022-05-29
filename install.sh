@@ -40,6 +40,8 @@ error_exit() {
   exit 1
 }
 
+trap 'error_exit' ERR
+
 function is_log_level() {
   case "${1}" in
   "${LOG_LEVEL_INFO}" | "${LOG_LEVEL_WARNING}" | "${LOG_LEVEL_ERROR}")
