@@ -5,7 +5,7 @@ set -e
 PROJECT_NAME=".dotfiles_macos"
 PROJECT_VERSION="0.1.0"
 
-ENV_FILE_PATH="${HOME}/.zshenv"
+ENV_FILE_PATH="${HOME}/.zprofile"
 
 CONTENT_BLOCK_BEGIN="begin ${PROJECT_NAME}"
 CONTENT_BLOCK_END="end ${PROJECT_NAME}"
