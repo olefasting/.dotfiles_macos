@@ -343,4 +343,4 @@ assert_is_project_dir "${DOTFILES_PATH}"
 [ -e "${DOTFILES_PATH}/.state" ] || mkdir -p "${DOTFILES_PATH}/.state"
 
 log "setting up zsh"
-append_to_file "${COMMENT_HASH_LINE}" "source ${DOTFILES_PATH}/zsh/.zshenv" "${ENV_FILE_PATH}"
+append_to_file "${COMMENT_HASH_LINE}" "source ${DOTFILES_PATH}/zsh/.zprofile" "${ENV_FILE_PATH}"
